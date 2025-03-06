@@ -1,4 +1,4 @@
-//FIFO
+//FCFS
 
 #include <stdio.h>
 #include <stdlib.h>
