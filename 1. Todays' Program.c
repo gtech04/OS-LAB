@@ -1,7 +1,6 @@
 // OPTIMAL
 
 #include <stdio.h>
-
 int fr[10], n, m;
 void display() {
     int i;
@@ -52,8 +51,6 @@ int main() {
             for (i = 0; i < m; i++) {
                 lg[i] = 0;
             }
-
-            // Look ahead in the future page references
             for (i = 0; i < m; i++) {
                 lg[i] = 1000; 
                 for (k = j + 1; k < n; k++) {
