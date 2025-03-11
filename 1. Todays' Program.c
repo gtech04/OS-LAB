@@ -186,7 +186,7 @@ int main() {
         j++;
         p++;
     }
-    atr[p] = t[j]; // Add `tot-1`
+    atr[p] = t[j];
     p++;
     i = 0;
     while (p < n + 3) {
